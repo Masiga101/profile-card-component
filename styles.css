@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+text-align: center;
+font-family: Kumbh Sans;
+background-color: hsl(185, 75%, 39%);
+background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+background-repeat: no-repeat;
+background-position: top -600px left -300px, left 700px top 350px ;
+}
+
+
+.content{
+    background-image: url(bg-pattern-card.svg);
+    background-position: center -15px;
+    background-repeat: no-repeat;
+   margin: auto;
+   margin-top: 8rem;
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    padding: 2rem 0;
+    border-radius: 20px;
+}
+
+  
+img{
+    margin-top: 40px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   border: 5px white solid;
+}
+
+.age{
+    color:  hsl(227, 10%, 46%) ;
+
+}
+
+h1{
+    margin: 1rem auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.london{
+    margin-bottom: 2rem;
+    color: hsl(227, 10%, 46%);
+}
+
+hr{
+margin-bottom: 1rem;
+}
+
+.infor{
+    display: inline-block;
+    margin: 1.5rem 1.5rem;
+}
+
+.infor p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.infor span{
+    font-size: 13px;
+    color: hsl(227, 10%, 46%);
+}
+
+.attribution{
+    margin-top: 2rem;
+}
+
+.attribution p{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+
+
+
+
+@media (max-width : 580px) and (min-width: 200px){
+    body{
+        text-align: center;
+        font-family: Kumbh Sans;
+        background-color: hsl(185, 75%, 39%);
+        background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-position: top -900px left -600px, left 500px top 150px ;
+        }
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 60%;
+        height: 450px;
+        background-color: white;
+        padding: 2rem 0;
+       
+        border-radius: 20px;
+        
+    }
+
+    .infor{
+        display: inline-block;
+        margin: 1rem 1rem 0.5rem;
+    }
+    
+    .infor p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+   
+    hr{
+        margin: 2rem 0;
+        }
+}
+
+
+
+
+@media (max-width : 690px) and (min-width : 580px) {
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 51%;
+        height: 400px;
+        background-color: white;
+        padding: 2rem 0 0;
+        border-radius: 20px;
+        
+    }
+    .infor p{
+        font-size: 18px;
+        font-weight: 700;
+    }
+   
+    .infor{
+        display: inline-block;
+        margin: 1rem  1rem 0;
+
+    }
+
+   
+}
+
+@media (max-width : 700px) and (min-width : 690px) {
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 40%;
+        height: 400px;
+        background-color: white;
+        padding: 2rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+    .infor p{
+        font-size: 18px;
+        font-weight: 700;
+    }
+   
+    .infor{
+        display: inline-block;
+        margin: 1rem  1rem 0.4rem;
+
+    }
+
+   
+}
+
+@media (max-width : 740px) and (min-width : 700px) {
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 40%;
+        height: 400px;
+        background-color: white;
+        padding: 2rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+    .infor p{
+        font-size: 18px;
+        font-weight: 700;
+    }
+   
+    .infor{
+        display: inline-block;
+        margin: 1rem  1rem 0.4rem;
+
+    }
+
+   
+}
+
+
+
+
+
+
+@media (max-width : 850px ) and (min-width: 740px){
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 40%;
+        height: 400px;
+        background-color: white;
+        padding:1rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+ 
+   
+}
+
+@media (max-width : 900px ) and (min-width: 850px){
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 35%;
+        height: 400px;
+        background-color: white;
+        padding:1rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+ 
+   
+}
+
+@media (max-width : 970px) and (min-width: 900px){
+
+    body{
+        text-align: center;
+        font-family: Kumbh Sans;
+        background-color: hsl(185, 75%, 39%);
+        background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-position: top -700px left -400px, left 500px top 250px ;
+        }
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 36%;
+        height: 400px;
+        background-color: white;
+        padding:1rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+ 
+   
+}
+
+@media (max-width : 1000px) and (min-width: 970px){
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 35%;
+        height: 400px;
+        background-color: white;
+        padding:1rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+ 
+   
+}
+
+@media (max-width : 1200px) and (min-width: 1000px){
+
+   
+    .content{
+        background-image: url(bg-pattern-card.svg);
+        background-position: center -15px;
+        background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 8rem;
+        width: 29.5%;
+        height: 400px;
+        background-color: white;
+        padding:1rem 0 0;
+       
+        border-radius: 20px;
+        
+    }
+ 
+    body{
+        text-align: center;
+        font-family: Kumbh Sans;
+        background-color: hsl(185, 75%, 39%);
+        background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-position: top -500px left -400px, left 600px top 300px ;
+        }
+   
+}
+
